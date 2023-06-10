@@ -1,0 +1,25 @@
+#fondo-messi {
+  background-color: aliceblue;
+}
+
+.card {
+  margin: 10px;
+  box-shadow: 0px 15px 25px;
+  border: solid 2px cornflowerblue;
+}
+.card img {
+  box-shadow: 0px 15px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.card .tarjeta-body {
+  margin: 10px;
+}
+.card .tarjeta-body .tarjeta-titulo {
+  font-size: 50px;
+}
+.card .tarjeta-body .tarjeta-titulo .tarjeta-texto {
+  font-size: 18.3px;
+}
+
+/*# sourceMappingURL=Messi.css.map */

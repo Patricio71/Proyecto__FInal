@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+    header {
+        @include flexbox (column, none, center);
+    }
+
+
+    #banner-inicio h2 {
+        webkit-box-shadow: 10px 10px 5px 0px rgba(156, 156, 156, 1);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(156, 156, 156, 1);
+        box-shadow: 10px 10px 5px 0px rgba(156, 156, 156, 1);
+        font-size: 50px;
+    }
+
+    #banner-inicio p {
+        text-shadow: 4px 6px 4px white;
+    }
+
+    .imagenes {
+        @include flexbox (column, none, center);
+
+        .imagen1 {
+            align-content: center;
+        }
+    }
+
+    .imagenes-del-partido {
+        @include flexbox (column, none, center);
+    }
+
+    .container {
+        margin-top: 140px;
+    }
+
+    footer {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

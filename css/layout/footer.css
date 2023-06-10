@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(23, 98, 236, 0.8);
+  grid-area: footer;
+}
+footer .copyrigth {
+  display: flex;
+  color: rgb(245, 241, 241);
+  margin: 5px;
+  font-size: 20px;
+}
+footer .img-redes img {
+  display: flex;
+  display: inline-block;
+  align-items: center;
+  width: 25px;
+  margin: 12px;
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=footer.css.map */

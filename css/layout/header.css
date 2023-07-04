@@ -26,12 +26,12 @@ header ul li {
 }
 header ul li:hover {
   transition: all;
-  background-color: rgb(6, 6, 6);
+  background-color: rgb(41, 20, 230);
 }
 header ul li a {
   display: flex;
   list-style-type: none;
-  color: white;
+  color: rgb(10, 10, 10);
   text-decoration: none;
 }
 

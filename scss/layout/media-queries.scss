@@ -1,8 +1,11 @@
-@media (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 900px){
 
     header {
         @include flexbox (column, none, center);
        
+    }
+    li{
+        color: black;
     }
 
 

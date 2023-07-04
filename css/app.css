@@ -145,12 +145,15 @@ main {
   font-size: 25px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 900px) {
   header {
     display: flex;
     flex-direction: column;
     justify-content: none;
     align-items: center;
+  }
+  li {
+    color: black;
   }
   #banner-inicio h2 {
     webkit-box-shadow: 10px 10px 5px 0px rgb(156, 156, 156);

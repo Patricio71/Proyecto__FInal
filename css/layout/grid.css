@@ -3,7 +3,7 @@ body {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20vh auto 40vh;
+  grid-template-rows: 20vh auto 50vh;
   grid-template-areas: "header header" "main main" "footer footer";
 }
 
